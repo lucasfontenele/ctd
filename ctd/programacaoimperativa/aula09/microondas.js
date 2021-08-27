@@ -14,6 +14,7 @@ function microondas(comida,segundos){
         break
         case "Brigadeiro":
         tempoPadrao = 8;
+        break
         default:
             return console.log("Prato inexistente!");
         }
