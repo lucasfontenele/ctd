@@ -12,6 +12,7 @@ body {
   text-align: center;
   padding: 100px 200px;
   color: whitesmoke;
+  box-sizing: border-box;
 }
 
 button {
