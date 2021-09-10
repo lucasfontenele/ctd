@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200&display=swap");
+
+@font-face {
+  font-family: "pricedow";
+  src: url(pricedow.ttf);
+}
+
+body {
+  height: 1000px;
+  background-image: url(Ceilândia.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.menu {
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  margin: 0;
+  z-index: 50;
+}
+
+.menu h1 {
+  text-align: center;
+  font-family: "pricedow";
+  font-size: 90px;
+  position: relative;
+  top: -60px;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(85, 81, 81, 0.829);
+}
+
+.texto {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  background-color: rgba(255, 255, 255, 0.788);
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px;
+  width: 650px;
+  height: 190px;
+  text-align: justify;
+  position: relative;
+  top: 60px;
+}
+
+.video {
+  position: relative;
+  width: 650px;
+  height: 400px;
+}
+
+h4 {
+  font-weight: 900;
+}
+
+.curiosidades {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  background-color: rgba(255, 255, 255, 0.788);
+  font-size: 25px;
+  font-weight: 500;
+  width: 650px;
+  height: 230px;
+  text-align: justify;
+  position: relative;
+}
+
+.insta {
+  width: 80px;
+  position: fixed;
+  right: 40px;
+  top: 570px;
+  z-index: 50;
+}
+
+.you {
+  width: 80px;
+  position: fixed;
+  right: 40px;
+  top: 650px;
+  z-index: 50;
+}

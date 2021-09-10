@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.imagem {
+  background-image: url(https://www.solidbackgrounds.com/images/1280x720/1280x720-rich-electric-blue-solid-color-background.jpg);
+  width: 1280px;
+  height: 720px;
+  border-radius: 200px;
+  text-align: center;
+  padding: 100px 200px;
+  color: whitesmoke;
+  box-sizing: border-box;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  width: 120px;
+  height: 40px;
+  background-image: whitesmoke;
+  color: #0892d0;
+  font-weight: 900;
+}
+
+h2 {
+  margin: 70px;
+}
