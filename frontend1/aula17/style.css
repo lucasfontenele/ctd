@@ -1,0 +1,33 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 12px;
+  flex-direction: row;
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
+}
+
+main select {
+  width: 200px;
+  height: 200px;
+}
+
+main select:nth-child(1) {
+  background-color: aqua;
+}
+
+main select:nth-child(2) {
+  background-color: yellow;
+}
+
+main select:nth-child(3) {
+  background-color: teal;
+}
