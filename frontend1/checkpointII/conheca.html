@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DH | Conheça a quebrada!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CEIlânDIa</h1>
+    </header>
+    <aside>
+      <ul>
+        <li><a href="index.html">INÍCIO</a></li>
+        <li><a href="videos.html">VÍDEOS</a></li>
+        <li><a href="conheca.html">CONHEÇA A QUEBRADA!</a></li>
+      </ul>
+    </aside>
+    <main>
+      <div class="titulo">
+        <h3>Quer entrar no grupo?</h3>
+        <h3>preenche aí</h3>
+      </div>
+
+      <form action="conheca.html">
+        <div class="form_div">
+          <label for="">Nome:</label>
+          <br />
+          <input type="text" maxlength="100" class="input_barra" required />
+        </div>
+
+        <div class="form_div">
+          <label for="">E-mail:</label>
+          <br />
+          <input
+            type="email"
+            class="input_barra"
+            required
+            placeholder="example@email.com"
+          />
+        </div>
+
+        <div class="form_div">
+          <label for="">Telefone:</label>
+          <br />
+          <input
+            type="tel"
+            class="input_barra"
+            required
+            placeholder="(00) 0000-0000"
+          />
+        </div>
+
+        <div class="form_div">
+          <label for="">Data de Nascimento:</label>
+          <br />
+          <input type="date" class="input_dn" required />
+        </div>
+
+        <div class="form_div">
+          <h4>Quais os interesses na cidade?</h4>
+          <input type="checkbox" class="input_checkbox" />
+          <label for="">Turismo</label>
+          <br />
+          <input type="checkbox" class="input_checkbox" />
+          <label for="">Estudo</label>
+          <br />
+          <input type="checkbox" class="input_checkbox" />
+          <label for="">Trabalho</label>
+        </div>
+
+        <div class="form_div">
+          <input type="submit" value="Enviar" class="button" />
+          <input type="reset" value="Limpar" class="button" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

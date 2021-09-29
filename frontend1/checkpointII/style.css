@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+@font-face {
+  font-family: "pricedow";
+  src: url(../checkpoint1/pricedow.ttf);
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
+}
+
+header {
+  grid-area: header;
+  background-color: #171717;
+  display: flex;
+  justify-content: center;
+}
+
+header h1 {
+  font-family: "pricedow";
+  font-size: 90px;
+  color: #eeeeee;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #393e46;
+}
+
+aside {
+  grid-area: aside;
+  background-color: #d65a31;
+  text-align: left;
+}
+
+aside li {
+  padding: 10px;
+}
+
+aside li:hover {
+  background-color: #eeeeee3b;
+}
+
+aside a {
+  text-decoration: none;
+  color: #eeeeee;
+}
+
+main {
+  grid-area: main;
+  background-color: #444444;
+  text-align: center;
+}
+
+main h1 {
+  color: #d65a31;
+  padding-bottom: 20px;
+}
+
+main img {
+  width: 900px;
+  padding: 20px 0px 20px 0px;
+}
+
+form {
+  color: #eeeeee;
+  font-size: 20px;
+}
+
+input {
+  margin: 10px;
+}
+
+h3 {
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #d65a31;
+  font-size: 60px;
+  font-family: "pricedow";
+}
+
+.titulo {
+  padding: 30px;
+}
+
+.form_div {
+  padding: 15px 0px;
+}
+
+.button {
+  padding: 10px;
+  background-color: #d65a31;
+  color: #eeeeee;
+  border: none;
+  margin: 0px 30px;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #17171767;
+  transform: scale(1.4);
+  transition-duration: 0.5s;
+}
+
+.input_barra {
+  width: 300px;
+  height: 25px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.input_dn {
+  height: 25px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.video {
+  padding: 30px 0px;
+}
+
+.text {
+  color: #eeeeee;
+  text-align: justify;
+  padding: 0px 20px 20px 20px;
+}
+
+.input_checkbox:hover {
+  background-color: #17171767;
+  transform: scale(1.8);
+  transition-duration: 0.5s;
+}
